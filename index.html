@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sober Living Angels — supportive sober living accommodation, recovery coaching and a community focused on healthy, sober living." />
+  <title>Sober Living Angels | Supportive Sober Living & Coaching</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/sla-icon-colour.svg" />
+
+  <!-- Fonts (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ======================================================
+       NAVBAR
+  ====================================================== -->
+  <header class="navbar" id="navbar">
+      <div class="container navbar__inner">
+
+        <a href="#home" class="navbar__logo">
+          <img src="images/sla-wordmark-navy.svg" alt="Sober Living Angels" class="navbar__logo-img navbar__logo-img--light" />
+          <img src="images/sla-wordmark-reversed.svg" alt="" class="navbar__logo-img navbar__logo-img--dark" aria-hidden="true" />
+        </a>
+
+      <nav class="navbar__links" id="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">What We Offer</a>
+        <a href="#journey" class="nav-link">Your Journey</a>
+        <a href="#stories" class="nav-link">Stories</a>
+        <a href="#contact" class="nav-link nav-link--cta">Contact Us</a>
+      </nav>
+
+      <!-- Dark / Light mode toggle (top right) -->
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark / light mode">
+        <!-- Sun icon (shown in dark mode) -->
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <!-- Moon icon (shown in light mode) -->
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+
+      <!-- Hamburger button (only visible on mobile) -->
+      <button class="navbar__toggle" id="nav-toggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================================================
+         HERO
+    ====================================================== -->
+    <section class="hero" id="home">
+      <div class="container hero__inner reveal">
+        <p class="hero__eyebrow">Christian Recovery Community</p>
+                <h1 class="hero__title">A supportive home for your <em>recovery</em> in Christ.</h1>
+                <p class="hero__text">
+                  Sober Living Angels is a Christ-centred recovery community offering comfortable
+                  accommodation, one-on-one coaching and a loving community — everything you need
+                  to build a healthy, sober lifestyle through faith, hope and grace.
+                </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Get in Touch</a>
+          <a href="#services" class="btn btn--ghost">See What We Offer</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tagline strip — floats between hero and About -->
+    <div class="hero__tagline" aria-label="Faith, hope, healing, purpose">
+      <span class="hero__tagline-line" aria-hidden="true"></span>
+      <span class="hero__tagline-words">
+        <span>Faith</span><span class="hero__tagline-dot" aria-hidden="true"></span>
+        <span>Hope</span><span class="hero__tagline-dot" aria-hidden="true"></span>
+        <span>Healing</span><span class="hero__tagline-dot" aria-hidden="true"></span>
+        <span>Purpose</span>
+      </span>
+      <span class="hero__tagline-line hero__tagline-line--right" aria-hidden="true"></span>
+    </div>
+
+    <!-- ======================================================
+         ABOUT
+    ====================================================== -->
+    <section class="section about" id="about">
+      <div class="container">
+
+        <div class="section__heading reveal">
+                  <p class="section__eyebrow">Who We Are</p>
+                  <h2>A Christ-centred community where <em>healing happens</em>.</h2>
+                </div>
+
+                <div class="about__grid">
+                  <div class="about__text reveal">
+                    <p>
+                      We believe recovery flourishes in the right environment. Our Christian
+                      recovery community gives you structure without pressure, and independence
+                      without isolation — a calm, welcoming space where you can focus on your
+                      relationship with God, yourself and others.
+                    </p>
+                    <p>
+                      Through faith, respect, accountability and community, we help you build
+                      the life skills and emotional resilience needed for lasting recovery.
+                      Wherever you are on your journey, you'll be met with dignity, compassion
+                      and encouragement.
+                    </p>
+                  </div>
+
+                  <!-- Our core values -->
+                  <div class="about__highlights reveal">
+                    <div class="highlight">
+                      <span class="highlight__number">Faith</span>
+                      <span class="highlight__label">God is the source of healing</span>
+                    </div>
+                    <div class="highlight">
+                      <span class="highlight__number">Community</span>
+                      <span class="highlight__label">Recovery is not walked alone</span>
+                    </div>
+                    <div class="highlight">
+                      <span class="highlight__number">Accountability</span>
+                      <span class="highlight__label">Honesty and personal responsibility</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
+    <!-- ======================================================
+         WHAT WE OFFER (SERVICES)
+    ====================================================== -->
+    <section class="section section--alt services" id="services">
+      <div class="container">
+
+        <div class="section__heading reveal">
+                  <p class="section__eyebrow">What We Offer</p>
+                  <h2>Support that fits around <em>your journey</em>.</h2>
+                </div>
+
+        <div class="cards">
+
+          <!-- Card 1: Accommodation -->
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 10.5 12 3l9 7.5"/>
+                <path d="M5 9.5V21h14V9.5"/>
+                <path d="M9 21v-6h6v6"/>
+              </svg>
+            </div>
+            <h3>Comfortable Accommodation</h3>
+            <p>
+              A safe, clean and welcoming home. Furnished rooms, shared living
+              spaces and all the essentials — a calm base where you can rest,
+              recharge and focus on your wellbeing.
+            </p>
+          </article>
+
+          <!-- Card 2: Coaching -->
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M12 7v5l3 3"/>
+              </svg>
+            </div>
+            <h3>Recovery Coaching</h3>
+            <p>
+              Your own coach to walk the road with you. Together you'll set goals,
+              build healthy routines and stay accountable — with encouragement
+              every step of the way.
+            </p>
+          </article>
+
+          <!-- Card 3: Community & Wellbeing -->
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 21s-7.5-4.6-9.5-9A5.5 5.5 0 0 1 12 6.5 5.5 5.5 0 0 1 21.5 12c-2 4.4-9.5 9-9.5 9Z"/>
+              </svg>
+            </div>
+            <h3>Community & Wellbeing</h3>
+            <p>
+              You're not doing this alone. House check-ins, shared meals, group
+              activities and peer support — a community that celebrates every
+              win with you, big or small.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         YOUR JOURNEY (HOW IT WORKS)
+    ====================================================== -->
+    <section class="section journey" id="journey">
+      <div class="container">
+
+        <div class="section__heading reveal">
+          <p class="section__eyebrow">Your Journey</p>
+          <h2>Getting started is <em>simple</em>.</h2>
+        </div>
+
+        <div class="steps">
+
+          <div class="step reveal">
+            <span class="step__number">1</span>
+            <h3>Reach Out</h3>
+            <p>
+              Send us a message or give us a call. We'll have a relaxed, no-pressure
+              chat about what you need and answer any questions you have.
+            </p>
+          </div>
+
+          <div class="step reveal">
+            <span class="step__number">2</span>
+            <h3>Move In</h3>
+            <p>
+              Settle into your room, meet your housemates and get to know the
+              rhythm of the house. We'll make sure you feel at home from day one.
+            </p>
+          </div>
+
+          <div class="step reveal">
+            <span class="step__number">3</span>
+            <h3>Thrive</h3>
+            <p>
+              With coaching, routine and a community behind you, build the sober,
+              healthy lifestyle you deserve — at your own pace.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         STORIES (TESTIMONIALS)
+         NOTE: These are placeholders — replace with real
+         stories (with permission) when you have them.
+    ====================================================== -->
+    <section class="section section--alt stories" id="stories">
+      <div class="container">
+
+        <div class="section__heading reveal">
+          <p class="section__eyebrow">Stories</p>
+          <h2>Words from our <em>community</em>.</h2>
+        </div>
+
+        <div class="quotes">
+
+          <blockquote class="quote reveal">
+            <p>"For the first time in years I feel at home. The support here is real — nobody judges you, everybody roots for you."</p>
+            <footer>— Resident, 8 months sober</footer>
+          </blockquote>
+
+          <blockquote class="quote reveal">
+            <p>"My coach helped me build a routine I actually enjoy. I've got my confidence back, and my family too."</p>
+            <footer>— Resident, 1 year sober</footer>
+          </blockquote>
+
+          <blockquote class="quote reveal">
+            <p>"It's not just a house, it's a family. We cook together, laugh together and grow together."</p>
+            <footer>— Former resident</footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         CONTACT
+    ====================================================== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+
+        <div class="section__heading reveal">
+          <p class="section__eyebrow">Contact Us</p>
+          <h2>Take the <em>first step</em> — we'd love to hear from you.</h2>
+        </div>
+
+        <div class="contact__grid">
+
+          <!-- Contact details -->
+                    <div class="contact__details reveal">
+                      <div class="contact__item">
+                        <h4>Phone / WhatsApp</h4>
+                        <p>+27 82 525 3104</p>
+                      </div>
+                      <div class="contact__item">
+                        <h4>Email</h4>
+                        <p>wimbaklipa@gmail.com</p>
+                      </div>
+                      <div class="contact__item">
+                        <h4>Location</h4>
+                        <p>56 Crescent Drive</p>
+                        <p>Koingnaas, Northern Cape</p>
+                        <p>South Africa</p>
+                      </div>
+                      <p class="contact__note">
+                        Reaching out is confidential and comes with zero obligation.
+                        We typically respond within 24 hours.
+                      </p>
+                    </div>
+
+                    <!--
+                      Contact form — currently front-end only.
+            When we add the backend later, the JS in main.js
+            is where we'll hook it up.
+          -->
+          <form class="contact__form reveal" id="contact-form" novalidate>
+            <div class="form__row">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Alex" required />
+            </div>
+
+            <div class="form__row">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="form__row">
+              <label for="phone">Phone (optional)</label>
+              <input type="tel" id="phone" name="phone" placeholder="+27 ..." />
+            </div>
+
+            <div class="form__row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us a little about what you're looking for..." required></textarea>
+            </div>
+
+            <!-- Honeypot field (hidden from humans, bots will fill it) -->
+            <div class="form__row honeypot-row" aria-hidden="true" style="position: absolute; left: -9999px;">
+              <label for="website">Leave this empty</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <button type="submit" class="btn btn--primary">Send Message</button>
+
+            <!-- Success / error messages appear here -->
+            <p class="form__feedback" id="form-feedback" role="status"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================
+       FOOTER
+  ====================================================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <a href="#home" class="footer__logo">
+        <img src="images/sla-wordmark-navy.svg" alt="Sober Living Angels" class="footer__logo-img footer__logo-img--light" />
+        <img src="images/sla-wordmark-reversed.svg" alt="" class="footer__logo-img footer__logo-img--dark" aria-hidden="true" />
+      </a>
+
+      <nav class="footer__links">
+        <a href="#about">About</a>
+        <a href="#services">What We Offer</a>
+        <a href="#journey">Your Journey</a>
+        <a href="#stories">Stories</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <p class="footer__copy">
+        &copy; <span id="year"></span> Sober Living Angels. All rights reserved.
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
