@@ -25,3 +25,7 @@ Sober Living Angels needed a professional online presence that reflects the warm
 
 **Mana Software** — *Your problem, our solution.*
 Crafting clean, purposeful digital experiences for businesses that make a difference.
+
+<p align="center">
+  <img src="images/mana-software-logo.png" alt="Mana Software — Your problem, our solution." width="400">
+</p>
