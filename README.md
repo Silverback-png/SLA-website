@@ -23,4 +23,5 @@ Sober Living Angels needed a professional online presence that reflects the warm
 
 ## Developed By
 
-**Mana Software** — crafting clean, purposeful digital experiences for businesses that make a difference.
+**Mana Software** — *Your problem, our solution.*
+Crafting clean, purposeful digital experiences for businesses that make a difference.
